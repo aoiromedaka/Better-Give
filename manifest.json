@@ -1,0 +1,28 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Better Give",
+        "description": "\"bettergive:give\"scripteventを追加します。",
+        "min_engine_version": [1,21,40],
+        "uuid": "909ef3d9-0ca4-4228-b964-a563df6daedf",
+        "version": [1,0,0]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "34757c18-4b49-482d-ac95-9f9829c6d08a",
+            "version": [1,0,0],
+            "entry": "scripts/javascript/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.15.0"
+        }
+    ],
+    "metadata": {
+        "authors": ["Aoiro Medaka"]
+    }
+}
